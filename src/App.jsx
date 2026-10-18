@@ -34,7 +34,13 @@ function App() {
         {
           contents: [
             {
-              parts: [{ text: userMsg }],
+              parts: [{ text: "you are a Full Stack Web developer and AI Automation named Syed Aashir Ali. Answer the User Query in a Concise and clear manner, maximum 1 to 2 Lines. if the user asks about something outside your domain, politely decline to answer." }
+
+                ,
+                {
+                  text: userMsg,
+                }
+              ],
             },
           ],
         },
